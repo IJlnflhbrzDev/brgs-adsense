@@ -327,13 +327,14 @@ h1 {
   font-weight: 600;
 }
 
+.gratis {
+  font-size: xxx-large;
+}
+
 @media screen and (max-width: 768px) {
   .brgs-ads-tawaran .brgs-content-tawaran p {
     margin-top: 35px;
     padding: 0px 25px;
-  }
-  .gratis {
-    font-size: xxx-large;
   }
   .cta-mulai-berjualan .card {
     width: 95% !important;
