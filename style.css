@@ -235,7 +235,7 @@ h1 {
 
 .faq .brgs-custom-acourdion {
   width: 75%;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .faq details {
@@ -328,6 +328,16 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .brgs-ads-tawaran .brgs-content-tawaran p {
+    margin-top: 35px;
+    padding: 0px 25px;
+  }
+  .brgs-simulasi-penghasilan {
+    margin-top: 30px;
+  }
+  .cta-mulai-berjualan .card {
+    width: 95% !important;
+  }
   .brgs-ads-jumbotron {
     padding-top: 18px;
   }
