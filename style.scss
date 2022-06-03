@@ -353,6 +353,14 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+     .brgs-ads-jumbotron {
+          padding-top: 18px;
+     }
+
+     .brgs-ads-jumbotron img {
+          display: none;
+     }
+
      .brgs-carousel {
           margin-top: 30px;
      }
