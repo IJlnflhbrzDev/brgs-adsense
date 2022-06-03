@@ -332,9 +332,6 @@ h1 {
     margin-top: 35px;
     padding: 0px 25px;
   }
-  .brgs-simulasi-penghasilan {
-    margin-top: 30px;
-  }
   .cta-mulai-berjualan .card {
     width: 95% !important;
   }
@@ -370,6 +367,10 @@ h1 {
   }
   .brgs-simulasi-penghasilan .brgs-content-penghasilan {
     width: 95% !important;
+    height: -webkit-max-content !important;
+    height: -moz-max-content !important;
+    height: max-content !important;
+    padding: 15px 15px 0px 15px;
   }
   .brgs-simulasi-penghasilan .brgs-content-penghasilan .body-penghasilan {
     font-size: 15px;

@@ -261,16 +261,10 @@ h1 {
 }
 
 .faq {
-
-
      .brgs-custom-acourdion {
-
-
           width: 75%;
           margin: 20px auto;
-
      }
-
 
      details {
           background-color: white;
@@ -359,9 +353,7 @@ h1 {
 
      }
 
-     .brgs-simulasi-penghasilan {
-          margin-top: 30px;
-     }
+
 
      .cta-mulai-berjualan {
           .card {
@@ -411,6 +403,8 @@ h1 {
 
           .brgs-content-penghasilan {
                width: 95% !important;
+               height: max-content !important;
+               padding: 15px 15px 0px 15px;
 
                .body-penghasilan {
                     font-size: 15px;
