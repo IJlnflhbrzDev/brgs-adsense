@@ -22,22 +22,22 @@
                          <br>
                          <form class="card_form">
                               <div class="input">
-                                   <input type="text" class="input_field" required />
+                                   <input type="text" class="input_field" name="name_input" required />
                                    <label class="input_label">Nama</label>
                               </div>
                               <div class="input">
-                                   <input type="text" class="input_field" required />
+                                   <input type="text" class="input_field" name="email_input" required />
                                    <label class="input_label">Email</label>
                               </div>
                               <div class="input">
-                                   <input type="number" class="input_field" required />
+                                   <input type="number" class="input_field" name="no_input" required />
                                    <label class="input_label">No. WhatsApp</label>
                               </div>
                               <div class="input">
-                                   <input type="text" class="input_field" required />
+                                   <input type="text" class="input_field" name="domisili_input" required />
                                    <label class="input_label">Domisili</label>
                               </div>
-                              <button onclick="showMessage()" class="card_button">Kirim</button>
+                              <button type="submit" class="card_button" id="disabled_button">Kirim</button>
                          </form>
                          <hr>
                          <div class="card_info" style="text-align: center;">
@@ -272,12 +272,7 @@
                </div>
                </div>
           </section>
-          <script>
-               function showMessage(message) {
-
-                    alert(`Terima kasih telah mengisi formulir kami.\nTim Customer Service kami akan segera menghubungi Anda.`);
-               }
-          </script>
+          <script src="form.js"></script>
      </body>
 
 </html>
