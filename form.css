@@ -342,4 +342,8 @@ a:hover {
 }
 
 
-/* modal */
+@media (max-width: 768px) {
+  .container {
+    transform: scale(1.1);
+  }
+}
